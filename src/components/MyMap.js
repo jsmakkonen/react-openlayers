@@ -56,7 +56,7 @@ class PublicMap extends Component {
       <div class="container"> 
         <div id="map" style={{ width: "100%", height: "450px" }} >
         </div>
-        <div class="button"><button onClick={e => this.userAction()}>Center view</button></div>
+        <div class="button"><button class="btn-1" onClick={e => this.userAction()}>Center view</button></div>
       </div>
     );
   }
